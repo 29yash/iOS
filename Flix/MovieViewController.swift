@@ -57,28 +57,29 @@ class MovieViewController: UIViewController, UITableViewDelegate, UITableViewDat
             } else if let data = data,
                 let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
                 self.count = dataDictionary["total_results"] as! Int;
-                print(self.count);
                 let responseDictionary = dataDictionary["results"] as! [[String:Any]];
 //                print(responseDictionary)
                 // Store the returned array of dictionaries in our posts property
-                self.movies = responseDictionary 
-                print(self.movies)
+                self.movies = responseDictionary
                 self.MovieTable.reloadData()
             }
         }
         task.resume()
     }
-    
-    
-
-    /*
+   
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        let cell = sender as! UITableViewCell;
+        let index = MovieTable.indexPath(for: cell);
+        let movie = movies[(index?.row)!]
+//        print(movie["title"]!);
+        let detailViewController = segue.destination as! DetailViewController;
+        detailViewController.movie = movie;
+        MovieTable.deselectRow(at: index!, animated: true);
     }
-    */
 
 }

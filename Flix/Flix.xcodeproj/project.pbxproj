@@ -13,11 +13,14 @@
 		EF577146220DC62E001C11B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF577145220DC62E001C11B2 /* AppDelegate.swift */; };
 		EF57714B220DC62E001C11B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF577149220DC62E001C11B2 /* Main.storyboard */; };
 		EF57714D220DC62F001C11B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF57714C220DC62F001C11B2 /* Assets.xcassets */; };
-		EF577150220DC62F001C11B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF57714E220DC62F001C11B2 /* LaunchScreen.storyboard */; };
+		EF577150220DC62F001C11B2 /* `.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF57714E220DC62F001C11B2 /* `.storyboard */; };
 		EF57715B220DC630001C11B2 /* FlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57715A220DC630001C11B2 /* FlixTests.swift */; };
 		EF577166220DC630001C11B2 /* FlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF577165220DC630001C11B2 /* FlixUITests.swift */; };
 		EF577174220DD150001C11B2 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF577173220DD150001C11B2 /* MovieViewController.swift */; };
 		EF577176220DDBE7001C11B2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF577175220DDBE7001C11B2 /* MovieCell.swift */; };
+		EF577178220E5E05001C11B2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF577177220E5E05001C11B2 /* DetailViewController.swift */; };
+		EF57717A22169027001C11B2 /* SuperheroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57717922169027001C11B2 /* SuperheroViewController.swift */; };
+		EF57717C221694F6001C11B2 /* SuperheroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF57717B221694F6001C11B2 /* SuperheroCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +54,7 @@
 		EF577145220DC62E001C11B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF57714A220DC62E001C11B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF57714C220DC62F001C11B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF57714F220DC62F001C11B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF57714F220DC62F001C11B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/`.storyboard"; sourceTree = "<group>"; };
 		EF577151220DC62F001C11B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF577156220DC630001C11B2 /* FlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF57715A220DC630001C11B2 /* FlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixTests.swift; sourceTree = "<group>"; };
@@ -61,6 +64,9 @@
 		EF577167220DC630001C11B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF577173220DD150001C11B2 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieViewController.swift; path = ../MovieViewController.swift; sourceTree = "<group>"; };
 		EF577175220DDBE7001C11B2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		EF577177220E5E05001C11B2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EF57717922169027001C11B2 /* SuperheroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroViewController.swift; sourceTree = "<group>"; };
+		EF57717B221694F6001C11B2 /* SuperheroCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +149,12 @@
 				EF577175220DDBE7001C11B2 /* MovieCell.swift */,
 				EF577145220DC62E001C11B2 /* AppDelegate.swift */,
 				EF577149220DC62E001C11B2 /* Main.storyboard */,
+				EF577177220E5E05001C11B2 /* DetailViewController.swift */,
 				EF57714C220DC62F001C11B2 /* Assets.xcassets */,
-				EF57714E220DC62F001C11B2 /* LaunchScreen.storyboard */,
+				EF57714E220DC62F001C11B2 /* `.storyboard */,
 				EF577151220DC62F001C11B2 /* Info.plist */,
+				EF57717922169027001C11B2 /* SuperheroViewController.swift */,
+				EF57717B221694F6001C11B2 /* SuperheroCell.swift */,
 			);
 			path = Flix;
 			sourceTree = "<group>";
@@ -276,7 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF577150220DC62F001C11B2 /* LaunchScreen.storyboard in Resources */,
+				EF577150220DC62F001C11B2 /* `.storyboard in Resources */,
 				EF57714D220DC62F001C11B2 /* Assets.xcassets in Resources */,
 				EF57714B220DC62E001C11B2 /* Main.storyboard in Resources */,
 			);
@@ -396,9 +405,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF57717A22169027001C11B2 /* SuperheroViewController.swift in Sources */,
 				EF577146220DC62E001C11B2 /* AppDelegate.swift in Sources */,
 				EF577174220DD150001C11B2 /* MovieViewController.swift in Sources */,
 				EF577176220DDBE7001C11B2 /* MovieCell.swift in Sources */,
+				EF577178220E5E05001C11B2 /* DetailViewController.swift in Sources */,
+				EF57717C221694F6001C11B2 /* SuperheroCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,12 +454,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF57714E220DC62F001C11B2 /* LaunchScreen.storyboard */ = {
+		EF57714E220DC62F001C11B2 /* `.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EF57714F220DC62F001C11B2 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = "`.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
